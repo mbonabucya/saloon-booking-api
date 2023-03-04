@@ -1,0 +1,12 @@
+# Ignore .pyc files
+*.pyc
+
+# Ignore the virtual environment folder
+#venv/
+
+# Ignore the database file
+db.sqlite3
+requirements.txt
+__init__.py
+__pycache__/
+
