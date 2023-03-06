@@ -30,4 +30,4 @@ class Booking(models.Model):
     appointment_time = models.DateTimeField()
     
     def __str__(self):
-        return f"{self.customer_name} - {self.stylist.name}"
+        return f"{self.customer_name}  {self.stylist.name}"
